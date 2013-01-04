@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib 
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+    version="2.1">
+
+    <display-name>Utility Functions</display-name>    
+    <tlib-version>1.0</tlib-version>
+    <short-name>ufn</short-name>
+    <uri>http://marmalade.example.com/functions</uri>
+
+    <function>
+        <name>active</name>
+        <function-class>marmalade.apis.example.misc.Functions</function-class>
+        <function-signature>java.lang.String active(java.lang.String, java.lang.String)</function-signature>
+    </function>
+</taglib>
